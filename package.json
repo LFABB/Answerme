@@ -1,0 +1,23 @@
+{
+  "name": "answerme",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"This is a test!\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LFABB/Answerme.git"
+  },
+  "keywords": [],
+  "author": "MasterCoder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LFABB/Answerme/issues"
+  },
+  "homepage": "https://github.com/LFABB/Answerme#readme",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}

@@ -1,0 +1,28 @@
+#questionmark{
+    position: relative;
+    font-size: 70px;
+    text-align: center;
+    color: crimson;
+}
+
+.btn{
+    position: absolute;
+    font-size: 70px;
+    color: crimson;
+    background-color: black;
+    border-color: crimson;
+}
+
+#btn1{
+    top: 20vh;
+    left: 85vh;
+}
+
+#btn2{
+    top: 20vh;
+    right: 85vh;
+}
+
+body {
+    background-color: black;
+}
