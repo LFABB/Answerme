@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" async></script>
-    <title>Answerme</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Answerme</title>
+    </head>
 
-<body>
-        <p id="questionmark">So then, are you hiring me?
-        <button id="btn1" class="btn">Yes</button>
-        <button id="btn2" class="btn">No</button>
-        </p>    
-</body>
+    <body style="overflow-x: hidden;">
+        <button id="lang" onclick="toggle()">EN</button>
+        <div style="position: relative; top: 6vh; left: 35vw;">
+            <h2 id="message" style="font-size: 2vw; font-family: Gotham SSm A;">Entonces, me contratas?</h2>
+            <div style="position: absolute; top: 10vh; left: 10vw;">
+                <button id="btn1" style="position: absolute; font-family: Gotham SSm A;" onclick="if(alt == false)alert('Me sonrojo! 😊'); else alert('I\'m blushing! 😊');">Si</button>
+                <button id="btn2" style="position: absolute; left: 3vw; font-family: Gotham SSm A;">No</button>
+            </div>
+        </div>
+        <script src="script.js"></script>    
+    </body>
 </html>
